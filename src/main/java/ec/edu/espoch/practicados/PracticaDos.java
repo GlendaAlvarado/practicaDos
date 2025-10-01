@@ -1,16 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
+
 
 package ec.edu.espoch.practicados;
 
-/**
- *
- * @author alvar
- */
+
 public class PracticaDos {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       Estudiante estudianteUno=new Estudiante();
+       estudianteUno.nombre = "Glenda";
+       estudianteUno.indentificacion = "2568";
+       estudianteUno.promedio = 7.20;
+       System.out.println("nombre " +estudianteUno.nombre);
+       System.out.println("identificacion " +estudianteUno.indentificacion);
+       System.out.println("promedio " +estudianteUno.promedio);
+       
+        Estudiante estudianteDos=new Estudiante();
+        estudianteDos.nombre = "Juan";
+        estudianteDos.indentificacion = "26788";
+        estudianteDos.promedio = 9.20;
+        System.out.println("nombre " +estudianteDos.nombre);
+        System.out.println("identificacion " +estudianteDos.indentificacion);
+        System.out.println("promedio " +estudianteDos.promedio);
+       
     }
 }
